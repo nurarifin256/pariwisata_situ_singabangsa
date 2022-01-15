@@ -1,0 +1,265 @@
+
+html,body {
+    height: 100%;
+}
+
+#container {
+    min-height: 100%;
+    position: relative;
+}
+
+.bgjumbo {
+    height: 600px;
+    background-image: url('../../img/jumbotron4.png');
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.navbar {
+    background-color: #051014;
+}
+
+nav ul li:hover {
+    background-color: #F3C693;
+	color: black;
+}
+
+.footer {
+    width: 100%;
+    height: 40px;
+    line-height: 25px;
+    padding-top: 10px;
+    background-color: #343a40;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+}
+
+hr{
+	width: 250px;
+	border-top: 3px solid #999;
+}
+
+.tiket .img-tiket {
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: 0.5s;
+}
+
+.tiket .img-tiket.muncul {
+    opacity: 1;
+    transform: translate(0, 0px);
+}
+
+.alamat .ralamat {
+    opacity: 0;
+    transform: translate(0, 40px);
+    transition: 0.5s;
+}
+
+.alamat .ralamat.rmuncul {
+    opacity: 1;
+    transform: translate(0, 0px);
+}
+
+.acara .img-acara {
+    opacity: 0;
+    transform: scale(0, 0);
+    transition: 1s;
+}
+
+.acara .img-acara.acmuncul {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+.cemilan .cdodol{
+    opacity: 0;
+    transform: translate(-50px, 0);
+    transition: 1.5s;
+}
+
+.cemilan .cdodol.cdmuncul {
+    opacity: 1;
+    transform: translate(0, 0px);
+}
+
+.cemilan .ctalas{
+    opacity: 0;
+    transform: translate(50px, 0);
+    transition: 1.5s;
+}
+
+.cemilan .ctalas.ctmuncul {
+    opacity: 1;
+    transform: translate(0, 0px);
+}
+
+.full-page{
+    height: 100%;
+	width: 100%;
+	background-image: url('../../img/j2.png');
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+
+.form-box
+{
+    border-radius: 20px;
+    width:380px;
+	height:450px;
+	position:relative;
+	margin:8% auto;
+	background:rgba(0,0,0,0.7);
+	padding:10px;
+    overflow: hidden;
+}
+
+.form-boxx
+{
+    border-radius: 20px;
+    width:380px;
+	height:550px;
+	position:relative;
+	margin:4% auto;
+	background:rgba(0,0,0,0.7);
+	padding:10px;
+    overflow: hidden;
+}
+
+
+.button-box
+{
+	width:110px;
+	margin:25px auto;
+	position:relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+#btn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: #F3C693;
+	border-radius: 30px;
+	transition: .5s;
+}
+
+.button-boxx
+{
+	width:150px;
+	margin:25px auto;
+	position:relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+#btn-reg{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 150px;
+	height: 100%;
+	background: #F3C693;
+	border-radius: 30px;
+	transition: .5s;
+}
+
+.toggle-btn
+{
+	padding:10px 30px;
+	background:transparent;
+	border:0;
+	outline: none;
+	position: relative;
+}
+
+.input-group-login
+{
+	top: 170px;
+	position:absolute;
+	width:280px;
+}
+
+.pesan {
+	top: -10px;
+	position:absolute;
+	width:280px;
+	border-radius: 30px;
+}
+
+.input-group-loginn
+{
+	top: 100px;
+	position:absolute;
+	width:280px;
+}
+
+.input-field
+{
+	width: 100%;
+	padding:10px 0;
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid #999;
+	outline:none;
+	background: transparent;
+}
+
+.submit-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: #F3C693;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+
+#login
+{
+	left:50px;
+}
+
+#login input
+{
+	color:white;
+	font-size:15;
+}
+
+.pertanyaan p {
+	color:white;
+	font-size:15;
+}
+
+p.mt-3 {
+	color:white;
+	font-size:15;
+}
+
+.pertanyaan {
+	margin-top: 30px;
+}
+
+.card {
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+}
+
+.card .tombol_bayar {
+	margin-right: 12px;
+}
+
+.img-preview{
+	height: 100px;
+	width: 100px;
+	margin-bottom: 10px;
+}
