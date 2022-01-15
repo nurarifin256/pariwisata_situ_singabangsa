@@ -3,7 +3,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class RajaOngkir extends CI_Controller
 {
-    private $apiKey = "e03696b1f0bf6f932f172513726544b4";
+    private $apiKey = "your apikey";
 
     public function provinsi()
     {
