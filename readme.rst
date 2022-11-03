@@ -1,70 +1,61 @@
 ###################
-What is CodeIgniter
+Aplikasi Pariwisata
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+Aplikasi pariwisata pada situ singabangsa (tenjo-bogor) berbasis web
 
 *******************
-Release Information
+Aktor & Fiturnya
 *******************
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+*******************
+1. Customer
+*******************
+- melihat event yang akan diselenggarakan di situ singabangsa
+- pesan tiket wahana di situ singabangsa
+- pesan produk (cemilan) umkm di situ singabangsa
+- mengelola (hapus, ubah, pilih kurir) pesanan (tiket & cemilan) di menu keranjang
+- konfirmasi pembayaran
+- cek status pesanan (dipacking, dikirim, ditolak)
+- konfirmasi pesanan cemilan telah di terima
+
+*******************
+2. Pelaku UMKM
+*******************
+- daftar toko
+- mengelola data profil toko
+- mengelola data master cemilan
+- proses pesanan cemilan (approve, unapprove, input no resi, edit no resi)
+- laporan pendapatan
+
+*******************
+3. Petugas wahana
+*******************
+- update status tiket (tiket telah digunakan)
+
+*******************
+4. Pengelola situ singabangsa
+*******************
+- mengelola master data (user, tiket wahana, event)
+- membaca pesan dari pengunjung situs situ singabangsa
+- mengelola pesanan tiket wahana (approve, unapprove)
+- mengelola request daftar umkm (approve, unapprove)
+- mengelola request cemilan umkm (approve, unapprove)
+- cek besaran gaji petugas wahana
+- laporan pendapatan
+
 
 **************************
-Changelog and New Features
+Teknologi yang di gunakan adalah sebagai berikut :
 **************************
+- php codeigneter versi 3
+- vanila javascript
+- ajax
+- jquery
+- botstrap versi 4
+- sweetalert versi 2
+- datatable
+- API raja ongkir
+- dompdf
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
-
-*******************
-Server Requirements
-*******************
-
-PHP version 5.6 or newer is recommended.
-
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
-
-************
-Installation
-************
-
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+Terimakasih
