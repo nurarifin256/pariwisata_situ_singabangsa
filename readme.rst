@@ -57,5 +57,6 @@ Teknologi yang di gunakan adalah sebagai berikut :
 - datatable
 - API raja ongkir
 - dompdf
+- mysql
 
 Terimakasih
