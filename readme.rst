@@ -2,7 +2,7 @@
 Aplikasi Pariwisata
 ###################
 
-Aplikasi pariwisata pada situ singabangsa (tenjo-bogor) berbasis web
+Aplikasi pariwisata pada situ singabangsa (tenjo-bogor) berbasis web, berfungsi untuk mempermudah calon pengunjung mendapatkan informasi fasilitas, lokasi, harga tiket wahana, yang ada di situ singabangsa, membantu para umkm sekitar situ singabangsa memasarkan produknya lebih luas, sehingga penjualan produk tidak lagi bergantung ke pengunjung yang datang ke situ singabangsa
 
 *******************
 Aktor & Fiturnya
